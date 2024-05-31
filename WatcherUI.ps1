@@ -170,7 +170,7 @@ function ShowOpenFileDialog($filter, $initialDirectory, $textBox) {
         </DockPanel>
         <DockPanel Grid.Row="1" Margin="10">
             <Label Content="Playnite Executable Path:" VerticalAlignment="Center" Width="165"/>
-            <TextBox Name="PlaynitePath" Text="C:\Program Files\Playnite\Playnite.DesktopApp.exe" Margin="5,0,5,0" Width="325" Height="25" IsReadOnly="true"/>
+            <TextBox Name="PlaynitePath" Text="C:\Users\jonnathanvb\AppData\Local\Playnite\Playnite.DesktopApp.exe" Margin="5,0,5,0" Width="325" Height="25" IsReadOnly="true"/>
             <Button Name="PlayniteBrowseButton" Content="Browse" Width="75" HorizontalAlignment="Left" Margin="5,0,5,0" Height="25"/>
         </DockPanel>
 
